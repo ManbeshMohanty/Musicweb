@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+  
+    margin-right: 0px;
+    height: 40px;
+    background-color: rgba(1, 15, 11, 0.516);
+    border: 1px solid rgba(111, 237, 130, 0.822);
+    z-index: 1000;
+}
+
+.nav .icon a{
+    text-decoration: none;
+}
+.music{
+    float: right;
+    margin-top: 7px;
+    margin-right: 8px;
+    
+}
+
+.music .navbar li{
+    float: left;
+   list-style-type: none;
+   width: 70px;
+}
+.icon{
+   
+    font-size: 40px;
+    float:left;
+}
+.icon a{
+    color: aquamarine;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(226, 236, 245);
+}
+
+
+ul li a:hover{
+    font-size: 20px;
+    color: rgba(57, 227, 184, 0.908);
+
+}
+body{
+    background: url("headphone.jpg") no-repeat;
+    background-size: cover;
+    
+    
+}
+.container{
+
+height: 600px;
+width: 30%;
+border: 2px solid white;
+color: azure;
+
+}
+
+.nav .search_bar{
+    float: right;
+    margin-top: 5px;
+    justify-content: center;
+    margin-right: 10px;
+}
+.nav .search_bar .srh{
+    font-family: 'Times New Roman', Times, serif;
+
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #fff;
+
+
+}
+.nav .search_bar .btn{
+    background-color:aqua;
+    font-size: 15px;
+    border-radius:0.5rem;
+
+}
+.nav .search_bar .btn:hover{
+   background-color: rgba(57, 227, 184, 0.908);; 
+}
+
+.cover{
+    border: 1px solid black;
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    position:absolute;
+    left: 50%;
+    top: 20%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 16px 7px;
+    opacity: 0.8;
+    
+}
+.cover .sub-cover{
+    border-bottom: 1px solid none;
+    background: black;
+    width: 300px;
+    height: 450px;
+    
+    border-radius:8px
+}
+
+.cover .sub-cover .cover-image{
+    text-align: center;
+}
+.cover .sub-cover .cover-image img{
+    border-radius: 20px;
+    position:absolute;
+    left: 20%;
+    top: 10%;
+    margin: -10px -9px;
+
+}
+.text{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    margin: -1px 10px;
+    
+}
+
+.text h1{
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: normal;
+}
+ 
+.text h2{
+    color: rgb(211, 233, 50);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 14px;
+    opacity: 0.7;
+    margin-top: 4px;
+}
+
+.line{
+    border-bottom:2px solid white;
+    position: absolute;
+    top:65%;
+    left: 15%;
+    width: 220px;
+    box-shadow: 1px 0px 4px ;
+    color:hotpink
+}
+
+.fa-circle{
+    color:hotpink;
+    position: absolute;
+    left: 35%;
+    margin-top: -6px;
+}
+
+.number{
+
+}
+
+h3{
+    position:absolute;
+    left:15%;
+    top:66%;
+    font-size:14px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+h4{
+    position: absolute;
+    left:81%;
+    top:66%;
+    font-size: 14px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:normal;
+}
+
+.player{
+    border-bottom: 1px solid white;
+    font-size: 60px;
+}
+.fa-pause-circle{
+    color:hotpink;
+    position:absolute;
+    left:43%;
+    top:72%;
+}
+
+.forward{
+    font-size:44px;
+}
+.fa-forward{
+    color:white;
+    position: absolute;
+    left: 63%;
+    top:74%;
+}
+
+.forward:hover{
+    font-size: 50px;
+    position:absolute;
+    left:63%;
+    top:74%;
+
+}
+
+.backward{
+    font-size:44px ;
+}
+
+.fa-backward{
+    color:white;
+    position:absolute;
+    left:26%;
+    top:74%;
+
+}
+
+.backward:hover{
+    font-size:50px;
+
+}
+
+.retweet{
+    font-size: 20px;
+    font-weight:normal;
+}
+.fa-retweet{
+    color:hotpink;
+    position:absolute;
+    left:14%;
+    top:77%;
+}
+.repeat{
+    font-size:20px ;
+}
+.fa-repeat{
+    color:hotpink;
+    position: absolute;
+    left:80%;
+    top:77%;
+
+}
+
+music{
+    position: absolute;
+    top: 15%;
+}
